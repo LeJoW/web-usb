@@ -12,6 +12,7 @@ document.querySelector("button").addEventListener("click", function () {
                 null,
                 4
             );
+            console.log(device);
         })
         .catch((error) => {
             console.error(error);
