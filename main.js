@@ -7,7 +7,7 @@ document.querySelector("button").addEventListener("click", function () {
             ],
         })
         .then((device) => {
-            document.querySelector("result").innerHTML = JSON.stringify(
+            document.querySelector("#result").innerHTML = JSON.stringify(
                 device,
                 null,
                 4
